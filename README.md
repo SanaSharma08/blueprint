@@ -115,6 +115,7 @@ The generated UI uses Indian conventions such as:
                                   │
                                   ▼
                          Editable Wireframe
+```
 
 ## 🛠 Tech Stack
 Next.js 16
