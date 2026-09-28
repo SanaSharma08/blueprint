@@ -196,5 +196,7 @@ Design system support
 ## 👩‍💻 Author
 
 Sana Sharma
+
 B.Tech Computer Science Engineering
+
 Full-Stack Developer & Research Enthusiast
