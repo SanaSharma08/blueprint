@@ -1,3 +1,5 @@
+<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/5297283d-ec88-45e7-90c8-e540c521a32d" />
+
 # Blueprint
 
 ### AI-Powered Product Architecture & UI Workspace
