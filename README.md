@@ -129,6 +129,7 @@ OpenAI API
 Vercel
 
 ## 📁 Project Structure
+```text
 blueprint/
 │
 ├── src/
@@ -154,7 +155,7 @@ blueprint/
 ├── public/
 ├── package.json
 └── README.md
-
+```
 ## ⚙️ Getting Started
 1. Clone the repository
 git clone https://github.com/SanaSharma08/blueprint.git
