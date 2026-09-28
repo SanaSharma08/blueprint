@@ -34,3 +34,41 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+<ReactFlow
+      nodes={nodes}
+      edges={edges}
+      nodeTypes={nodeTypes}
+      onNodesChange={onNodesChange}
+      onEdgesChange={onEdgesChange}
+      onConnect={onConnect}
+      onNodeClick={(_, node) => {
+        setSelectedNode(node);
+      }}
+      fitView
+      fitViewOptions={{ padding: 0.2 }}
+      minZoom={0.25}
+      maxZoom={1.5}
+      proOptions={{ hideAttribution: true }}
+      
+    >
+      <Background
+        variant={BackgroundVariant.Dots}
+        gap={20}
+        size={1.2}
+        color="#b8b8b5"
+      />
+
+      <Controls
+        position="bottom-right"
+        className="!bottom-20 !right-4 !m-0 md:!bottom-5"
+      />
+
+      <MiniMap
+        position="bottom-left"
+        className="!bottom-5 !left-20 !hidden !h-28 !w-40 md:!block"
+        pannable
+        zoomable
+      />
+    </ReactFlow>
